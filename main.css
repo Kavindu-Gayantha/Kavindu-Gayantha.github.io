@@ -104,14 +104,40 @@ body
 
 .container
 {
-    width:100%;
-    height:800px;
+    width:90%;
+    height:600px;
     border:1px solid black;
+    margin-top:5%;
+    margin-left:5%;
+    
 }
 .item
 {
     border:1px solid black;
     padding:5px;
-    margin:
+    margin:5px;
+}
+.myname
+{
+    color:rgb(26, 102, 202);
+    text-shadow: 1px 2px rgb(8, 3, 31);
+    text-align: center;
+}
+.nameinside
+{
+    font-family: Georgia;
+    font-size: 20px;
+    border-width:3px;;
+    height: auto;
+    border-style: double; 
+    margin-right:25%;
+    margin-left:25%;
+    border-color: #0cc3db;
+    
+}
+.nameinside:hover
+{
+    border-color: #09d119;
+    color:#4a94c5;
 }
 
