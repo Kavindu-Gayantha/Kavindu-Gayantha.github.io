@@ -102,26 +102,46 @@ body
    grid-column-end:4;
    } */
 
-.container
+.containerTable
 {
     width:90%;
     height:600px;
     border:1px solid black;
     margin-top:5%;
     margin-left:5%;
+    padding:80px;
     
 }
+
 .item
 {
     border:1px solid black;
     padding:5px;
-    margin:5px;
+    /* column-span: 2; */
+    margin-left:5px;
+    margin-right:15px;  
+
 }
 .myname
 {
     color:rgb(26, 102, 202);
     text-shadow: 1px 2px rgb(8, 3, 31);
     text-align: center;
+    margin-right:50px;
+}
+#myphoto img
+{
+    width:500px;
+    /* margin-left:10%;
+    margin-right:10%; */
+    padding:6px;
+}
+#myphoto
+{
+    margin:0;
+    width:500px;
+    border:1px solid black;
+    padding:5px;
 }
 .nameinside
 {
@@ -130,8 +150,8 @@ body
     border-width:3px;;
     height: auto;
     border-style: double; 
-    margin-right:25%;
-    margin-left:25%;
+    margin-right:30%;
+    /* margin-left:25%; */
     border-color: #0cc3db;
     
 }
