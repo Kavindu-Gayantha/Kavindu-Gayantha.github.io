@@ -4,101 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MY CV</title>
-    <link rel="stylesheet" href="main.css">
+    <title>my cv v-3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Compiled and minified CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-<!-- Compiled and minified JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        
 </head>
-<body>
-    <!-- <div class="grid-container">
-        <div class="photoBar"> -->
-            <!-- <div class="photo">
-                <div class="itemPhoto">
-photo
-                </div>
-                <div class="itemSocialmedia">
-social
-                </div>
-            </div> -->
-            <!-- <table id="photocard">
-                <tr>
-                    <td style="height: 300px; border:1px solid black; padding:2px; margin-left:4px; margin-right: 4px;">
-                        <img src="" alt="mine">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div id="socialmedia" style="border:1px solid black;">
-                            social media
+<body style="background-color:rgb(6, 42, 75)"><p>
+    <div class="container">
+            <div class="jumbotron" style="background-color:rgb(6, 42, 75); padding-top:10px; padding-left:8px;" >
+                    
+                    <div class="row">
+                        <div class="col-5">
+                            <!-- photo -->
+                            
+                            <div class="card bg-transparent" style="width:18rem; border: none">
+                                    <h2 class="kavindu text-primary" >Hi, I'm Kavindu</h2>
+                                    <img src="me.jpg" class="card-img-top" id="myphoto" alt="myself">
+                                <div class="card-body">
+                                    <!-- <a href="#" class="btn btn-primary">Download my CV</a> -->
+                                <!-- <h6 class="card-title">follow me on</h6> -->
+                                <p class="card-text"> icons here</p>
+                                <button type="button" class="btn btn-outline-primary btn-block"><a href="#">About</a></button>
+                                <button type="button" class="btn btn-outline-primary btn-block">Education</button>
+                                <button type="button" class="btn btn-outline-primary btn-block">Extra curicular Activities</button>
+                                <button type="button" class="btn btn-outline-primary btn-block">Achievements & Awards</button>
+                                <button type="button" class="btn btn-outline-primary btn-block">Projects</button>
+                                <button type="button" class="btn btn-outline-primary btn-block">Contact me</button>
+                    
+                                </div>
+                            </div> <!--card ends  <div class="shadow-lg p-3 mb-5 bg-white rounded">Larger shadow</div>-->
                         </div>
-                    </td>
-                </tr>
-            </table>
+                        <div class="col-7" id="topicname" > <!--details coloumn-->
+                            
+                            <!-- <h3 class="kavindu text-primary">Hi, I'm Kavindu</h3> -->
+                            <div class="row">
+                                <div class="col-4"></div><div class="col-4"><h4 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px;">About</h4></div><div class="col-4"></div>
+                            </div>
+                            <div class="row" id="detailsSection"> 
+                                <div class="col-12-wd"> <br>
+                                    <p class="nameAbout text-white">Hello there I'm <strong class="text-primary">Kavindu Gayantha</strong> , second year software engineering undergraduate of University of Kelaniya. I'm good at team working and interesting about web developing and mobile application development.<br>And I'm willing to learn new things always to improve my skills.</p>
+                                        <div class="row">
+                                            <div class="col-4"></div><div class="col-4"></div><div class="col-4"></div>
+                                            
+                                        </div>
+                                </div>
+                            </div>
+                            <table class="table table-borderless bg-transparent" style="float:left; color:rgb(67, 147, 200);">
+                                <tbody>
+                                    <tr>
+                                        <!-- <th scope="row">1</th> -->
+                                        <td>Phone</td>
+                                        <td>+94 71 873 273</td>
+                                        <!-- <td>@mdo</td> -->
+                                    </tr>
+                                    <tr>
+                                        <!-- <th scope="row">2</th> -->
+                                        <td>Email</td>
+                                        <td>s.kavindu.gayantha@gmail.com</td>
+                                        <!-- <td>@fat</!--> 
+                                    </tr>
+                                    <tr>
+                                        <!-- <th scope="row">3</!--> 
+                                        <td>Date of birth</td>
+                                        <td>27<sup>th</sup> of june, 1996</td>
+                                        <!-- <td>@twitter</!--> 
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!-- progress bar -->
+                            <div class="progress" style="height:20px;">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="10" aria-valuemax="100">j</div>
+                            </div>
 
-        </div>  photobar end -->
-<!--
-        <div class="myname">
-            <h3>Hello I'm Kavindu</h3>
-        </div>
-        <div class="item3">3</div>
-        <div class="item4">4</div>
-        <div class="item5">5</div>
-        <div class="item6">6</div>
-        <div class="item7">7</div>
-        <div class="item8">8</div>
-      </div> -->
 
-      <!-- grid with rowspan colspan -->
-      <table class="containerTable">
-        <tr >
-            <td rowspan="7" colspan="2">
-                <div id="myphoto">
-                    <img src="photos/me" alt="mine">
-                </div>
-            </td>
-            <td class="myname" colspan="3" style="align:center;">
-                <div class="nameinside">
-                    <h2>Hi I'm Kavindu</h2>
-               </div>
-            </td>
-        </tr>
-        <tr>
-            <td class="item"colspan="2" >About</td><td></td>
-        </tr>
-        <tr>
-            <td class="item" colspan="2">
-                Education
-            </td><td></td>
-        </tr>
-        <tr>
-            <td class="item" colspan="2">
-                Extra curicular activities
-            </td><td></td>
-        </tr>
-        <tr>
-            <td class="item" colspan="2">
-                Achievements
-            </td><td></td>
 
-        </tr>
-        <tr>
-            <td class="item" colspan="2">
-                Projects
-            </td><td></td>
+                        </div> <!--second col details column ends-->
+                   
+                </div> <!--row ends-->
+            </div> <!--jumbotron ends-->
+    </div>
 
-        </tr>
-        <tr>
-            <td class="item" colspan="2">
-                Contact me
-            </td><td></td>
-
-        </tr>
-
-      </table>
-    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+</body>
 </html>
