@@ -6,6 +6,7 @@
     /* padding-left:10%; */
     align-content: right;
     margin-left:35px;
+    
 }
 .kavindu
 {
@@ -15,6 +16,7 @@
     padding-top:10px;
     text-shadow: 1px 2px rgb(2, 14, 36);
     text-emphasis-color: white; 
+    
 }
 .btn
 {
@@ -54,3 +56,18 @@ a
     text-decoration: none;
     text-anchor: none;
 }
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width:80px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
