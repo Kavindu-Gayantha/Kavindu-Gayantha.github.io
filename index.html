@@ -8,7 +8,65 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script >
+        function visibleAbout()
+{
+    document.getElementById('aboutColoumn').style.display='block';
+    document.getElementById('educationColoumn').style.display='none';
+    document.getElementById('extraCuricularColoumn').style.display='none';
+    document.getElementById('achievementsColoumn').style.display='none';
+    document.getElementById('projectsColoumn').style.display='none';
+    document.getElementById('contactColoumn').style.display='none';
+}
+function visibleEducation()
+{
+    document.getElementById('aboutColoumn').style.display='none';
+    document.getElementById('educationColoumn').style.display='block';
+    document.getElementById('extraCuricularColoumn').style.display='none';
+    document.getElementById('achievementsColoumn').style.display='none';
+    document.getElementById('projectsColoumn').style.display='none';
+    document.getElementById('contactColoumn').style.display='none';
+}
+function visibleExtra()
+{
+    document.getElementById('aboutColoumn').style.display='none';
+    document.getElementById('educationColoumn').style.display='none';
+    document.getElementById('extraCuricularColoumn').style.display='block';
+    document.getElementById('achievementsColoumn').style.display='none';
+    document.getElementById('projectsColoumn').style.display='none';
+    document.getElementById('contactColoumn').style.display='none';
+}
+function visibleAchievements()
+{
+    document.getElementById('aboutColoumn').style.display='none';
+    document.getElementById('educationColoumn').style.display='none';
+    document.getElementById('extraCuricularColoumn').style.display='none';
+    document.getElementById('achievementsColoumn').style.display='block';
+    document.getElementById('projectsColoumn').style.display='none';
+    document.getElementById('contactColoumn').style.display='none';
+}
+function visibleProject()
+{
+    document.getElementById('aboutColoumn').style.display='none';
+    document.getElementById('educationColoumn').style.display='none';
+    document.getElementById('extraCuricularColoumn').style.display='none';
+    document.getElementById('achievementsColoumn').style.display='none';
+    document.getElementById('projectsColoumn').style.display='block';
+    document.getElementById('contactColoumn').style.display='none';
+}
+function visibleContact()
+{
+    document.getElementById('aboutColoumn').style.display='none';
+    document.getElementById('educationColoumn').style.display='none';
+    document.getElementById('extraCuricularColoumn').style.display='none';
+    document.getElementById('achievementsColoumn').style.display='none';
+    document.getElementById('projectsColoumn').style.display='none';
+    document.getElementById('contactColoumn').style.display='block';
+}
 
+    
+    
+    </script>
 </head>
 <body style="background-color:rgb(6, 42, 75)"><p>
     <div class="container">
@@ -35,20 +93,20 @@
                                         </tr>
                                     </table>  
                                 </p>
-                                <a href="#" role="button" class="btn btn-outline-primary btn-block text-primary">About</a> 
-                                <a href="#" role="button" class="btn btn-outline-primary btn-block text-primary">Education</a>
-                                <a href="#" role="button" class="btn btn-outline-primary btn-block text-primary">Extra curicular Activities</a>
-                                <a href="#" role="button" class="btn btn-outline-primary btn-block text-primary">Achievements & Awards</a>
-                                <a href="#" role="button" class="btn btn-outline-primary btn-block text-primary">Projects</a>
-                                <a href="#" role="button" class="btn btn-outline-primary btn-block text-primary">Contact me</a>
+                                <button onclick="visibleAbout()" class="btn btn-outline-primary btn-block text-primary">About</button> 
+                                <button onclick="visibleEducation()" class="btn btn-outline-primary btn-block text-primary">Education</button>
+                                <button onclick="visibleExtra()" class="btn btn-outline-primary btn-block text-primary">Extra curicular Activities</button>
+                                <button onclick="visibleAchievements()" class="btn btn-outline-primary btn-block text-primary">Achievements & Awards</button>
+                                <button onclick="visibleProject()" class="btn btn-outline-primary btn-block text-primary">Projects</button>
+                                <button onclick="visibleContact()" class="btn btn-outline-primary btn-block text-primary">Contact me</button>
                     
                                 </div>
                             </div> <!--card ends  <div class="shadow-lg p-3 mb-5 bg-white rounded">Larger shadow</div>-->
                         </div>
+                     <div id="aboutColoumn"> <!-- visible invisible coloumn1 -->
                         <div class="col-7" id="topicname" > <!--details coloumn-->
 
 
-                        <div id="aboutColoumn"> <!-- visible invisible coloumn1 -->
                             <!-- <h3 class="kavindu text-primary">Hi, I'm Kavindu</h3> -->
                             <div class="row">
                                 <div class="col-4"></div><div class="col-4"><h4 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px;">About</h4></div><div class="col-4"></div>
@@ -90,34 +148,56 @@
                             </div>
                             <a class="btn btn-outline-primary" href="http://localhost:8080/Home" role="button">Home Page</a>
 
-                        </div> <!--visible invisible coloumn1-->
-
+                            
                         </div> <!--second col details column ends-->
+                    </div> <!--visible invisible coloumn1-->
                    
                 </div> <!--row ends-->
             </div> <!--jumbotron ends-->
     </div>
 
     <!-- invisible coloumns here -->
-    <div id="educationColoumn">
-
+     <div id="educationColoumn">
+        <div class="col-7" id="topicname" > <!--education coloumn-->
+            <div class="row">
+                <div class="col-4"></div><div class="col-4"><h4 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px;">Education</h4></div><div class="col-4"></div>
+            </div>
+        </div>
     </div>
+    <!-- education end -->
 
     <div id="extraCuricularColoumn">
-
+        <div class="col-7" id="topicname" > <!--extra curicular coloumn-->
+            <div class="row">
+                <div class="col-4"></div><div class="col-4"><h4 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px;">Extra Curricular Activities</h4></div><div class="col-4"></div>
+            </div>
+        </div>
     </div>
+<!-- extra curricular end -->
+
 
     <div id="achievementsColoumn">
-
+        <div class="row">
+            <div class="col-4"></div><div class="col-4"><h4 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px;">Achievements & Awards</h4></div><div class="col-4"></div>
+        </div>
     </div>
+<!-- achievements end -->
+
 
     <div id="projectsColoumn">
-
+        <div class="row">
+            <div class="col-4"></div><div class="col-4"><h4 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px;">Projects</h4></div><div class="col-4"></div>
+        </div>
     </div>
+<!-- project end -->
+
 
     <div id="contactColoumn">
-
+        <div class="row">
+            <div class="col-4"></div><div class="col-4"><h4 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px;">Contact Me</h4></div><div class="col-4"></div>
+        </div>
     </div>
+    <!-- contact end -->
     <!-- hidden coloumns end here -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
