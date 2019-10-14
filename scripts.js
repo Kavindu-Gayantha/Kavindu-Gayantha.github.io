@@ -5,8 +5,8 @@ function visibleAbout()
     var visible = document.getElementById('topicname');
     visible.innerHTML = `
     <div class="row">
-    <div class="col-4"></div><div class="col-4"><h4 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px;">About</h4></div><div class="col-4"></div>
-        </div>
+        <div class="col-4"></div><div class="col-4"><h4 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px;">About</h4></div><div class="col-4"></div>
+    </div>
         <div class="row" id="detailsSection"> 
             <div class="col-12-wd"> <br>
                 <p class="nameAbout text-white">Hello there I'm <strong class="text-primary">Kavindu Gayantha</strong> , second year software engineering undergraduate of University of Kelaniya. I'm good at team working and interesting about web developing and mobile application development.<br>And I'm willing to learn new things always to improve my skills.</p>
@@ -52,11 +52,32 @@ function visibleEducation()
 {
     var visible = document.getElementById("topicname");
     visible.innerHTML = `
-    <div id="educationColoumn">
-        <div class="col-7" id="topicname" > 
-            <div class="row">
-                <div class="col-4"></div><div class="col-4"><h4 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px;">Education</h4></div><div class="col-4"></div>
-            </div>
+    <div class="row">
+        <div class="col-4"></div><div class="col-4"><h4 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px;">education</h4></div><div class="col-4"></div>
+    </div>
+    <div class="row"> <!-- details of education--> 
+        <div class="col-12-wd"> <br>
+            
+
+                     <table class="table table-borderless bg-transparent text-white" style="float:center">
+                        <tbody>
+                            <tr>
+                                <td>primary education</td>
+                                <td>president's college maharagama
+                                </td>
+                                    
+                            </tr>
+                            <tr>
+                                    
+                                <td>higher education</td>
+                                <td>University of kelaniya</td>
+                                    
+                            </tr>
+                                
+                        </tbody>
+                    </table>
+                           
+               
         </div>
     </div>
     `;
