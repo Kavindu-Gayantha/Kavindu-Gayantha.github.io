@@ -150,7 +150,7 @@ function visibleAchievements()
                             <table class="table table-borderless bg-transparent text-white" style="float:center">
                                 <tbody>
                                     <tr>
-                                        <td style="padding-bottom:20%";><img src="badminton.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">University Colours - 2018</h4>
+                                        <td style="padding-bottom:20%";><img src="awards.svg" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">University Colours - 2018</h4>
                                         <h6><strong class="text-primary">Awarded colours for Badminton 2018</strong></h6>
                                         </td>
                                     </tr>
@@ -165,7 +165,7 @@ function visibleAchievements()
 }
 function visibleProject()
 {
-    var visible = document.getElementById("topicname");
+  var visible = document.getElementById("topicname");
     visible.innerHTML = `
     <div id="projectColoumn">
         <div class="col-7" id="topicname" > <!--project coloumn-->
