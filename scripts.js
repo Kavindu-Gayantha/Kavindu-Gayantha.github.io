@@ -40,7 +40,9 @@ function visibleAbout()
         </table>
         <!-- progress bar -->
         
-        <a class="btn btn-outline-primary" href="http://localhost:8080/Home" role="button">Home Page</a>
+       
+        <tr>
+        </tr>
 
 
 
@@ -76,6 +78,16 @@ function visibleEducation()
                                 
                                     
                             </tr>
+                            <tr>
+                            
+                               <td style="float:right;"><img src="diploma2.jpeg" style="width:250px"> </td><td><h3 class="text-white" style="padding-top:20px">Diploma in English</h3>
+                                <h6><strong class="text-primary">Buddhist and Pali university, Colombo</strong>
+                                <h6>2017</h6>
+                                </td> 
+                            
+                                
+                            </tr>
+                           
                                 
                         </tbody>
                     </table>
@@ -89,11 +101,35 @@ function visibleExtra()
 {
     var visible = document.getElementById("topicname");
     visible.innerHTML = `
-    <div id="extraCuricularColoumn">
-        <div class="col-7" id="topicname" > 
-            <div class="row">
-                <div class="col-4"></div><div class="col-4"><h4 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px;">Extra_Curricular_Activities</h4></div><div class="col-4"></div>
-            </div>
+    <div class="row">
+        <div class="col"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Extra Curricular Activities</h1></div>
+    </div>
+    <div class="row"> <!-- details of education--> 
+        <div class="col-12-wd"> <br>
+
+            <div class="row"> <!-- details of extra curricular activities--> 
+                <div class="col-12-wd"> <br>
+                    <table class="table table-borderless bg-transparent text-white" style="float:center">
+                        <tbody >
+                            <tr>
+                            
+                                <td style="padding-bottom:20%";><img src="badminton.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">Represents University Badminton team</h4>
+                                <h6><strong class="text-primary">2018-present</strong></h6>
+                                </td>
+                            </tr><p>
+                            
+                            <tr >
+                                <div class="row" >
+                                    <td ><img src="ieee.png" style="width:150px;"> </td><td class="col-wd"><h4 class="text-white">IEEE committee member, Kelaniya branch</h4>
+                                    <h6><strong class="text-primary">2019-present</strong></h6>
+                                    </td>
+                                
+                                </div>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>  <!-- row ends-->
         </div>
     </div>
         
@@ -103,13 +139,19 @@ function visibleAchievements()
 {
     var visible = document.getElementById("topicname");
     visible.innerHTML = `
-        <div id="achievementsColoumn">
-            <div class="col-7" id="topicname" > <!--achievements coloumn-->
-                <div class="row">
-                    <div class="col-4"></div><div class="col-4"><h4 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px;">achievements</h4></div><div class="col-4"></div>
+    <div class="row">
+            <div class="col"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Achievements & Awards</h1></div>
+    </div>
+            <div class="row"> <!-- details of achievements--> 
+                <div class="col-12-wd"> <br>
+
+                    <div class="row"> <!-- details of achievements--> 
+                        <div class="col-12-wd"> 
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
         
     `;
 }
