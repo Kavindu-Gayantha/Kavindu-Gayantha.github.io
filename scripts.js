@@ -5,7 +5,7 @@ function visibleAbout()
     var visible = document.getElementById('topicname');
     visible.innerHTML = `
     <div class="row">
-        <div class="col-4"></div><div class="col-4"><h4 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px;">About</h4></div><div class="col-4"></div>
+        <div class="col-4"></div><div class="col-4"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">About</h1></div><div class="col-4"></div>
     </div>
         <div class="row" id="detailsSection"> 
             <div class="col-12-wd"> <br>
@@ -39,9 +39,7 @@ function visibleAbout()
             </tbody>
         </table>
         <!-- progress bar -->
-        <div class="progress" style="height:20px;">
-                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="10" aria-valuemax="100">j</div>
-        </div>
+        
         <a class="btn btn-outline-primary" href="http://localhost:8080/Home" role="button">Home Page</a>
 
 
@@ -53,7 +51,7 @@ function visibleEducation()
     var visible = document.getElementById("topicname");
     visible.innerHTML = `
     <div class="row">
-        <div class="col-4"></div><div class="col-4"><h4 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px;">education</h4></div><div class="col-4"></div>
+        <div class="col-4"></div><div class="col-4"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px;">Education</h1></div><div class="col-4"></div>
     </div>
     <div class="row"> <!-- details of education--> 
         <div class="col-12-wd"> <br>
@@ -62,15 +60,20 @@ function visibleEducation()
                      <table class="table table-borderless bg-transparent text-white" style="float:center">
                         <tbody>
                             <tr>
-                                <td>primary education</td>
-                                <td>president's college maharagama
-                                </td>
-                                    
+                               
+                                <td style="float:right"><img src="Kelaniya.png" style="width:150px;"> </td><td ><h2 class="text-white">University of Kelaniya</h2>
+                                 <h6><strong class="text-primary">undergraduate of bsc(hon's) in software engineering</strong></h6><h6>2018-2022</h6>
+                                 </td>
+                            
                             </tr>
+                            <p>
                             <tr>
-                                    
-                                <td>higher education</td>
-                                <td>University of kelaniya</td>
+                            
+                                <td style="float:right;"><img src="pcm.png" style="width:150px"> </td><td><h3 class="text-white" style="padding-top:20px">President's college Maharagama</h3>
+                                <h6><strong class="text-primary">Maths stream</strong>
+                                <h6>2002-2015</h6>
+                                </td>
+                                
                                     
                             </tr>
                                 
