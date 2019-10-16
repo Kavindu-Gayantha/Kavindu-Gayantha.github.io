@@ -154,6 +154,11 @@ function visibleAchievements()
                                         <h6><strong class="text-primary">Awarded colours for Badminton 2018</strong></h6>
                                         </td>
                                     </tr>
+                                    <tr>
+                                    <td><img src="ieee innovation nation.png" style="width:150px;"> </td><td class="col-wd"><h4 class="text-white">IEEE innovation nation</h4>
+                                    <h6><strong class="text-primary">Got selected for IEEE innovation nation 2018 final top 8 teams</strong></h6>
+                                    </td>
+                                </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -167,13 +172,20 @@ function visibleProject()
 {
   var visible = document.getElementById("topicname");
     visible.innerHTML = `
-    <div id="projectColoumn">
-        <div class="col-7" id="topicname" > <!--project coloumn-->
-            <div class="row">
-                <div class="col-4"></div><div class="col-4"><h4 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px;">projects</h4></div><div class="col-4"></div>
-             </div>
-        </div>
+    <div class="row">
+            <div class="col"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Projects</h1></div>
     </div>
+            <div class="row"> <!-- details of projects--> 
+                <div class="col-12-wd"> <br>
+
+                    <div class="row"> <!-- details of projects--> 
+                        <div class="col-12-wd"> 
+                        
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
 
     `;
 
