@@ -21,7 +21,7 @@ function visibleAbout()
                 <tr>
                     <!-- <th scope="row">1</th> -->
                     <td>Phone</td>
-                    <td>+94 71 873 273</td>
+                    <td>+94 71 873 2730</td>
                     <!-- <td>@mdo</td> -->
                 </tr>
                 <tr>
