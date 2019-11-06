@@ -63,7 +63,7 @@ function visibleEducation()
                         <tbody>
                             <tr>
                                
-                                <td style="float:right"><img src="Kelaniya.png" style="width:150px;"> </td><td ><h2 class="text-white">University of Kelaniya</h2>
+                                <td style="float:right"><img src="images/Kelaniya.png" style="width:150px;"> </td><td ><h2 class="text-white">University of Kelaniya</h2>
                                  <h6><strong class="text-primary">undergraduate of bsc(hon's) in software engineering</strong></h6><h6>2018-2022</h6>
                                  </td>
                             
@@ -71,7 +71,7 @@ function visibleEducation()
                             <p>
                             <tr>
                             
-                                <td style="float:right;"><img src="pcm.png" style="width:150px"> </td><td><h3 class="text-white" style="padding-top:20px">President's college Maharagama</h3>
+                                <td style="float:right;"><img src="images/pcm.png" style="width:150px"> </td><td><h3 class="text-white" style="padding-top:20px">President's college Maharagama</h3>
                                 <h6><strong class="text-primary">Maths stream</strong>
                                 <h6>2002-2015</h6>
                                 </td>
@@ -80,7 +80,7 @@ function visibleEducation()
                             </tr>
                             <tr>
                             
-                               <td style="float:right;"><img src="diploma2.jpeg" style="width:250px"> </td><td><h3 class="text-white" style="padding-top:20px">Diploma in English</h3>
+                               <td style="float:right;"><img src="images/diploma2.jpeg" style="width:250px"> </td><td><h3 class="text-white" style="padding-top:20px">Diploma in English</h3>
                                 <h6><strong class="text-primary">Buddhist and Pali university, Colombo</strong>
                                 <h6>2017</h6>
                                 </td> 
@@ -113,14 +113,14 @@ function visibleExtra()
                         <tbody >
                             <tr>
                             
-                                <td style="padding-bottom:20%";><img src="badminton.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">Represents University Badminton team</h4>
+                                <td style="padding-bottom:20%";><img src="images/badminton.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">Represents University Badminton team</h4>
                                 <h6><strong class="text-primary">2018-present</strong></h6>
                                 </td>
                             </tr><p>
                             
                             <tr >
                                 <div class="row" >
-                                    <td ><img src="ieee.png" style="width:150px;"> </td><td class="col-wd"><h4 class="text-white">IEEE committee member, Kelaniya branch</h4>
+                                    <td ><img src="images/ieee.png" style="width:150px;"> </td><td class="col-wd"><h4 class="text-white">IEEE committee member, Kelaniya branch</h4>
                                     <h6><strong class="text-primary">2019-present</strong></h6>
                                     </td>
                                 
@@ -150,12 +150,12 @@ function visibleAchievements()
                             <table class="table table-borderless bg-transparent text-white" style="float:center">
                                 <tbody>
                                     <tr>
-                                        <td style="padding-bottom:20%";><img src="awards.svg" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">University Colours - 2018</h4>
+                                        <td style="padding-bottom:20%";><img src="images/awards.svg" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">University Colours - 2018</h4>
                                         <h6><strong class="text-primary">Awarded colours for Badminton 2018</strong></h6>
                                         </td>
                                     </tr>
                                     <tr>
-                                    <td><img src="ieee innovation nation.png" style="width:150px;"> </td><td class="col-wd"><h4 class="text-white">IEEE innovation nation</h4>
+                                    <td><img src="images/ieee innovation nation.png" style="width:150px;"> </td><td class="col-wd"><h4 class="text-white">IEEE innovation nation</h4>
                                     <h6><strong class="text-primary">Got selected for IEEE innovation nation 2018 final top 8 teams</strong></h6>
                                     </td>
                                 </tr>
@@ -183,7 +183,7 @@ function visibleProject()
                         <table class="table table-borderless bg-transparent text-white" style="float:center">
                             <tbody>
                                 <tr>
-                                    <td style="padding-bottom:20%";><img src="student mgt sys.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">Student Management System</h4>
+                                    <td style="padding-bottom:20%";><img src="images/student mgt sys.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">Student Management System</h4>
                                     <h6><strong class="text-primary">HTML | CSS | JS | PHP | MySQL | Bootstrap</strong></h6>
                                     </td>
                                 </tr>
