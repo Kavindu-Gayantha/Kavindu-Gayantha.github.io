@@ -218,17 +218,17 @@ function visibleContact()
                                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                                 </div><br>
                                 <div class="form-group">
-                                    <label for="exampleInputname">name</label>
+                                    <label for="exampleInputname">Name</label>
                                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="your name">
                                 </div><br>
                                 
                                     <div class="form-group">
-                                        <label for="exampleFormControlTextarea1">send feedback</label>
+                                        <label for="exampleFormControlTextarea1">Send feedback</label>
                                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
                                     </div>  
                                     
 
-                                <button type="submit" class="btn btn-primary">send feedback</button>
+                                <button type="submit" class="btn btn-primary">Send feedback</button>
                             </form>    
                    
                     </div>
