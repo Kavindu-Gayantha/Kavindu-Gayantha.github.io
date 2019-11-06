@@ -203,38 +203,37 @@ function visibleContact()
     var visible = document.getElementById("topicname");
     visible.innerHTML =`
     <div class="row">
-    <div class="col"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Contact me</h1></div>
+     <div class="col"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Contact me</h1></div>
         </div>
         <div class="row"> <!-- details of contact--> 
-            <div class="col-12-wd"> <br>
+            <div class="col"> <br>
 
-                <div class="row"> <!-- details of contacts--> 
-                    <div class="col-12-wd"> <br>
+                
+                    
                     <div class="col" id="contactME">
-                       
-                    <form class="text-white" >
-                        <div class="form-group">
-                        <label for="exampleInputEmail1">Name</label>
-                        <input type="email" class="form-control" id="exampleInputname" aria-describedby="emailHelp" placeholder="Enter name">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
-                        </div>
-                        <div class="form-group">
-                        <label for="exampleInputEmail1">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
-                        </div>
-                        <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Your feedback</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                  </form></div>
+                            <form class="text-white">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div><br>
+                                <div class="form-group">
+                                    <label for="exampleInputname">name</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="your name">
+                                </div><br>
+                                
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">send feedback</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                    </div>  
+                                    
+
+                                <button type="submit" class="btn btn-primary">send feedback</button>
+                            </form>    
+                   
                     </div>
-                </div>  <!-- row ends-->
+                    
+                  <!-- row ends-->
             </div>
         </div>
     `;
