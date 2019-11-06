@@ -210,8 +210,9 @@ function visibleContact()
 
                 <div class="row"> <!-- details of contacts--> 
                     <div class="col-12-wd"> <br>
+                    <div class="col" id="contactME">
                        
-                    <form class="text-white">
+                    <form class="text-white" >
                         <div class="form-group">
                         <label for="exampleInputEmail1">Name</label>
                         <input type="email" class="form-control" id="exampleInputname" aria-describedby="emailHelp" placeholder="Enter name">
@@ -231,7 +232,7 @@ function visibleContact()
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
+                  </form></div>
                     </div>
                 </div>  <!-- row ends-->
             </div>
