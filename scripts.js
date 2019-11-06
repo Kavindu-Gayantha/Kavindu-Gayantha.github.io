@@ -1,3 +1,17 @@
+ // Your web app's Firebase configuration
+ var firebaseConfig = {
+    apiKey: "AIzaSyBvVHJ0R9pG_x3RJ5Yh1ETNqB3gD2yc_8E",
+    authDomain: "portfolio3-new.firebaseapp.com",
+    databaseURL: "https://portfolio3-new.firebaseio.com",
+    projectId: "portfolio3-new",
+    storageBucket: "portfolio3-new.appspot.com",
+    messagingSenderId: "697758551966",
+    appId: "1:697758551966:web:55c834319b76a6d72c908f",
+    measurementId: "G-VMWSTZLP7G"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
 
 
 function visibleAbout()
@@ -211,7 +225,7 @@ function visibleContact()
                 
                     
                     <div class="col" id="contactME">
-                            <form class="text-white">
+                            <form class="text-white" id="feedbackform">
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Email address</label>
                                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -237,6 +251,15 @@ function visibleContact()
             </div>
         </div>
     `;
+}
+
+document.getElementById('feedbackform').addEventListener('submit',submitForm);
+
+function submitForm(e)
+{
+    e.prevenetDefault();
+
+    console.log(123);
 }
 
 
