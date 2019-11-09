@@ -1,7 +1,7 @@
  // Your web app's Firebase configuration
  
   // Initialize Firebase
- \
+ 
 
 
 function visibleAbout()
@@ -243,14 +243,7 @@ function visibleContact()
     `;
 }
 
-document.getElementById('feedbackform').addEventListener('submit',submitForm);
 
-function submitForm(e)
-{
-    e.prevenetDefault();
-
-    console.log(123);
-}
 
 
 
