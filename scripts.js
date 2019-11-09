@@ -239,7 +239,7 @@ function visibleContact()
                     
                   <!-- row ends-->
             </div>
-        </div>
+    e    </div>
     `;
 }
 
