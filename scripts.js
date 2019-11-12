@@ -12,7 +12,7 @@ function visibleAbout()
         <div class="col-4"></div><div class="col-4"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">About</h1></div><div class="col-4"></div>
     </div>
         <div class="row" id="detailsSection"> 
-            <div class="col-12-wd"> <br>
+            <div class="col-sm-12"> <br>
                 <h5 class="nameAbout text-white">Hello there I'm <strong class="text-primary">Kavindu Gayantha</strong> , second year software engineering undergraduate of University of Kelaniya. I'm good at team working and interesting about web developing and mobile application development.<br>And I'm willing to learn new things always to improve my skills.</h5>
                     <div class="row">
                         <div class="col-4"></div><div class="col-4"></div><div class="col-4"></div>
@@ -84,7 +84,7 @@ function visibleEducation()
                             </tr>
                             <tr>
                             
-                               <td style="float:right;"><img src="images/diploma2.jpeg" style="width:250px"> </td><td><h3 class="text-white" style="padding-top:20px">Diploma in English</h3>
+                               <td style="float:right;"><img src="images/diploma2.png" style="width:250px"> </td><td><h3 class="text-white" style="padding-top:20px">Diploma in English</h3>
                                 <h6><strong class="text-primary">Buddhist and Pali university, Colombo</strong>
                                 <h6>2017</h6>
                                 </td> 
@@ -154,7 +154,7 @@ function visibleAchievements()
                             <table class="table table-borderless bg-transparent text-white" style="float:center">
                                 <tbody>
                                     <tr>
-                                        <td style="padding-bottom:20%";><img src="images/awards.svg" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">University Colours - 2018</h4>
+                                        <td style="padding-bottom:20%";><img src="images/awardssss.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">University Colours - 2018</h4>
                                         <h6><strong class="text-primary">Awarded colours for Badminton 2018</strong></h6>
                                         </td>
                                     </tr>
