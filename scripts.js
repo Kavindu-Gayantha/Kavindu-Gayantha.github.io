@@ -57,10 +57,10 @@ function visibleEducation()
     var visible = document.getElementById("topicname");
     visible.innerHTML = `
     <div class="row">
-        <div class="col-4"></div><div class="col-4"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">Education</h1></div><div class="col-4"></div>
+        <div class="col-sm-4"></div><div class="col-sm-4"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">Education</h1></div><div class="col-sm-4"></div>
     </div>
     <div class="row"> <!-- details of education--> 
-        <div class="col-12-wd"> <br>
+        <div class="col-sm-12-wd"> <br>
             
 
                      <table class="table table-borderless bg-transparent text-white" style="float:center">
@@ -106,13 +106,13 @@ function visibleExtra()
     var visible = document.getElementById("topicname");
     visible.innerHTML = `
     <div class="row">
-        <div class="col"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Extra Curricular Activities</h1></div>
+        <div class="col-sm-12"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Extra Curricular Activities</h1></div>
     </div>
     <div class="row"> <!-- details of education--> 
         <div class="col-12-wd"> <br>
 
             <div class="row"> <!-- details of extra curricular activities--> 
-                <div class="col-12-wd"> <br>
+                <div class="col-sm-12-wd"> <br>
                     <table class="table table-borderless bg-transparent text-white" style="float:center">
                         <tbody >
                             <tr>
@@ -144,7 +144,7 @@ function visibleAchievements()
     var visible = document.getElementById("topicname");
     visible.innerHTML = `
     <div class="row">
-            <div class="col"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Achievements & Awards</h1></div>
+            <div class="col-sm"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Achievements & Awards</h1></div>
     </div>
             <div class="row"> <!-- details of achievements--> 
                 <div class="col-12-wd"> <br>
