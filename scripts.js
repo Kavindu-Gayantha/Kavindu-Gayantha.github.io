@@ -9,13 +9,13 @@ function visibleAbout()
     var visible = document.getElementById('topicname');
     visible.innerHTML = `
     <div class="row">
-        <div class="col-4"></div><div class="col-4"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">About</h1></div><div class="col-4"></div>
+        <div class="col-sm-12"></div><div class="col-4"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">About</h1></div><div class="col-4"></div>
     </div>
         <div class="row" id="detailsSection"> 
             <div class="col-sm-12"> <br>
                 <h5 class="nameAbout text-white">Hello there I'm <strong class="text-primary">Kavindu Gayantha</strong> , second year software engineering undergraduate of University of Kelaniya. I'm good at team working and interesting about web developing and mobile application development.<br>And I'm willing to learn new things always to improve my skills.</h5>
                     <div class="row">
-                        <div class="col-4"></div><div class="col-4"></div><div class="col-4"></div>
+                        <div class="col-sm-12"></div><div class="col-4"></div><div class="col-4"></div>
                         
                     </div>
             </div>
@@ -60,7 +60,7 @@ function visibleEducation()
         <div class="col-sm-4"></div><div class="col-sm-4"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">Education</h1></div><div class="col-sm-4"></div>
     </div>
     <div class="row"> <!-- details of education--> 
-        <div class="col-sm-12-wd"> <br>
+        <div class="col-sm-12"> <br>
             
 
                      <table class="table table-borderless bg-transparent text-white" style="float:center">
@@ -112,19 +112,19 @@ function visibleExtra()
         <div class="col-12-wd"> <br>
 
             <div class="row"> <!-- details of extra curricular activities--> 
-                <div class="col-sm-12-wd"> <br>
+                <div class="col-sm-12"> <br>
                     <table class="table table-borderless bg-transparent text-white" style="float:center">
                         <tbody >
                             <tr>
                             
-                                <td style="padding-bottom:20%";><img src="images/badminton.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">Represents University Badminton team</h4>
+                                <td style="padding-bottom:20%";><img src="images/badminton.png" style="width:150px;"> </td><br><td class="col-sm-12"><h4 class="text-white">Represents University Badminton team</h4>
                                 <h6><strong class="text-primary">2018-present</strong></h6>
                                 </td>
                             </tr><p>
                             
                             <tr >
                                 <div class="row" >
-                                    <td ><img src="images/ieee.png" style="width:150px;"> </td><td class="col-wd"><h4 class="text-white">IEEE committee member, Kelaniya branch</h4>
+                                    <td ><img src="images/ieee.png" style="width:150px;"> </td><td class="col-sm-12"><h4 class="text-white">IEEE committee member, Kelaniya branch</h4>
                                     <h6><strong class="text-primary">2019-present</strong></h6>
                                     </td>
                                 
@@ -144,13 +144,13 @@ function visibleAchievements()
     var visible = document.getElementById("topicname");
     visible.innerHTML = `
     <div class="row">
-            <div class="col-sm"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Achievements & Awards</h1></div>
+            <div class="col-sm-12"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Achievements & Awards</h1></div>
     </div>
             <div class="row"> <!-- details of achievements--> 
                 <div class="col-12-wd"> <br>
 
                     <div class="row"> <!-- details of achievements--> 
-                        <div class="col-12-wd"> 
+                        <div class="col-sm-12"> 
                             <table class="table table-borderless bg-transparent text-white" style="float:center">
                                 <tbody>
                                     <tr>
@@ -177,10 +177,10 @@ function visibleProject()
   var visible = document.getElementById("topicname");
     visible.innerHTML = `
     <div class="row">
-            <div class="col"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Projects</h1></div>
+            <div class="col-sm-12"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Projects</h1></div>
     </div>
             <div class="row"> <!-- details of projects--> 
-                <div class="col-12-wd"> <br>
+                <div class="col-sm-12"> <br>
 
                     <div class="row"> <!-- details of projects--> 
                         <div class="col-12-wd"> 
