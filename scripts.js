@@ -59,7 +59,7 @@ function visibleEducation()
     var visible = document.getElementById("topicname");
     visible.innerHTML = `
     <div class="row">
-        <div class="col-sm-4"></div><div class="col-sm-4"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">Education</h1></div><div class="col-sm-4"></div>
+        <div class="col-4 sm-4"></div><div class="col-4 sm-12"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">Education</h1></div><div class="col-4 sm-4"></div>
     </div>
     <div class="row"> <!-- details of education--> 
         <div class="col-xs-12 col-sm-6"> <br>
@@ -68,7 +68,8 @@ function visibleEducation()
                      <table class="table table-borderless bg-transparent text-white" style="float:center">
                         <tbody>
                             <tr>
-                               
+                            
+                        
                                 <td style="float:right"><img src="images/Kelaniya.png" style="width:150px;"> </td><td ><h2 class="text-white">University of Kelaniya</h2>
                                  <h6><strong class="text-primary">undergraduate of bsc(hon's) in software engineering</strong></h6><h6>2018-2022</h6>
                                  </td>
@@ -108,7 +109,7 @@ function visibleExtra()
     var visible = document.getElementById("topicname");
     visible.innerHTML = `
     <div class="row">
-        <div class="col-sm-12"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Extra Curricular Activities</h1></div>
+            <div class="col-sm-12"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Extra Curricular Activities</h1></div>
     </div>
     <div class="row"> <!-- details of education--> 
         <div class="col-12-wd"> <br>
