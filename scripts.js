@@ -61,22 +61,26 @@ function visibleEducation()
     <div class="row">
         <div class="col-4 sm-4"></div><div class="col-4 sm-12"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">Education</h1></div><div class="col-4 sm-4"></div>
     </div>
-    <div class="row"> <!-- details of education--> 
-        <div class="col-xs-12 col-sm-6"> <br>
+    <div class="row no-gutters"> <!-- details of education--> 
+        <div class="col-sm-12 lg-12"> <br>
             
 
-                     <table class="table table-borderless bg-transparent text-white" style="float:center">
-                        <tbody>
-                            <tr>
-                            
+                    //  <table class="table table-borderless bg-transparent text-white" style="float:center">
+                       
+                        <div class="row bg-transparent text-white ">
+                            <div class="col-sm-3 lg-3">
                         
-                                <td style="float:right"><img src="images/Kelaniya.png" style="width:150px;"> </td><td ><h2 class="text-white">University of Kelaniya</h2>
-                                 <h6><strong class="text-primary">undergraduate of bsc(hon's) in software engineering</strong></h6><h6>2018-2022</h6>
-                                 </td>
+                                <td style="float:right"><img src="images/Kelaniya.png" style="width:150px;"> </td>
+                            </div>
+                            <div class="col-sm-12 lg-9">
                             
-                            </tr>
+                                <h2 class="text-white">University of Kelaniya</h2>
+                                 <h6><strong class="text-primary">undergraduate of bsc(hon's) in software engineering</strong></h6><h6>2018-2022</h6>
+                             </div>    
+                        </div>     
+                            
                             <p>
-                            <tr>
+                            
                             
                                 <td style="float:right;"><img src="images/pcm.png" style="width:150px"> </td><td><h3 class="text-white" style="padding-top:20px">President's college Maharagama</h3>
                                 <h6><strong class="text-primary">Maths stream</strong>
@@ -84,8 +88,8 @@ function visibleEducation()
                                 </td>
                                 
                                     
-                            </tr>
-                            <tr>
+                            
+                            
                             
                                <td style="float:right;"><img src="images/diploma2.png" style="width:250px"> </td><td><h3 class="text-white" style="padding-top:20px">Diploma in English</h3>
                                 <h6><strong class="text-primary">Buddhist and Pali university, Colombo</strong>
@@ -93,11 +97,11 @@ function visibleEducation()
                                 </td> 
                             
                                 
-                            </tr>
+                            
                            
                                 
-                        </tbody>
-                    </table>
+                    //     </tbody>
+                    // </table>
                            
                
         </div>
