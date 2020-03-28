@@ -9,13 +9,14 @@ function visibleAbout()
     var visible = document.getElementById('topicname');
     visible.innerHTML = `
     <div class="row">
-        <div class="col-sm-4"></div><div class="col-sm-4"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">About</h1></div><div class="col-4"></div>
+        <div class="col-4 sm-4"></div><div class="col-4 sm-12"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">About</h1></div><div class="col-4 sm-4"></div>
     </div>
         <div class="row" id="detailsSection"> 
             <div class="col-sm-12"> <br>
 
-                <h5 class="nameAbout text-white">Hello there I'm <strong class="text-primary">Kavindu Gayantha</strong> , second year software engineering undergraduate of University of Kelaniya. I'm good at team working and interesting about web developing and mobile application development.<br>And I'm willing to learn new things always to improve my skills.</h5>
-                    <div class="row">
+            <h5 class="nameAbout text-white">Hello there I'm <strong class="text-primary">Kavindu Gayantha</strong> , I am an enthusiastic individual who is eager to learn new things perpetually while getting myself up-to-date with cutting edge technologies. I am good at being a team player as well as leading a team. I am more keen on Web development, Mobile Development, and Data Science, and seek an opportunity related to one of these areas.
+            </h5>  
+                <div class="row">
                         <div class="col-sm-4"></div><div class="col-sm-4"></div><div class="col-sm-4"></div>
                         
                     </div>
