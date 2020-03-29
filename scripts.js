@@ -59,7 +59,7 @@ function visibleEducation()
     var visible = document.getElementById("topicname");
     visible.innerHTML = `
     <div class="row">
-        <div class="col-sm-12"></div><div class="col-4 sm-12"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">Education</h1></div><div class="col-4 sm-4"></div>
+        <div class="col-4-sm-12"></div><div class="col-4 sm-12"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">Education</h1></div><div class="col-4 sm-4"></div>
     </div>
     <div class="row "> <!-- details of education--> 
         <div class="col-12-wd"> <br>
