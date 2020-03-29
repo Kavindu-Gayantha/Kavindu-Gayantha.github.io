@@ -70,15 +70,15 @@ function visibleEducation()
                        <tbody>
                        <tr> 
                         
-                            <td style="float:right"><img src="images/Kelaniya.png" style="width:150px;"> </td>
-                            <td ><h2 class="text-white">University of Kelaniya</h2>
+                            <td class="col-sm-12" style="float:right"><img src="images/Kelaniya.png" style="width:150px;"> </td>
+                            <td class="col-sm-12"><h2 class="text-white">University of Kelaniya</h2>
                                  <h6><strong class="text-primary">undergraduate of bsc(hon's) in software engineering</strong></h6><h6>2018-2022</h6>
                         </tr><tr>
                             
                             <p>
                             
                             
-                                <td style="float:right;"><img src="images/pcm.png" style="width:150px"> </td><td><h3 class="text-white" style="padding-top:20px">President's college Maharagama</h3>
+                                <td style="float:right;"><img src="images/pcm.png" style="width:150px"> </td><td class="col-sm-12"><h3 class="text-white" style="padding-top:20px">President's college Maharagama</h3>
                                 <h6><strong class="text-primary">Maths stream</strong>
                                 <h6>2002-2015</h6>
                                 </td>
@@ -87,7 +87,7 @@ function visibleEducation()
                             
                             
                             
-                               <td style="float:right;"><img src="images/diploma2.png" style="width:250px"> </td><td><h3 class="text-white" style="padding-top:20px">Diploma in English</h3>
+                               <td style="float:right;"><img src="images/diploma2.png" style="width:150px"> </td><td class="col-sm-12"><h3 class="text-white" style="padding-top:20px">Diploma in English</h3>
                                 <h6><strong class="text-primary">Buddhist and Pali university, Colombo</strong>
                                 <h6>2017</h6>
                                 </td> 
