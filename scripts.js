@@ -150,14 +150,14 @@ function visibleAchievements()
             <div class="col-sm-12"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Achievements & Awards</h1></div>
     </div>
             <div class="row"> <!-- details of achievements--> 
-                <div class="col-12-wd"> <br>
+                <div class="col-12-wd"> 
 
                     <div class="row"> <!-- details of achievements--> 
                         <div class="col-sm-12"> 
                             <table class="table table-borderless bg-transparent text-white" style="float:center">
                                 <tbody>
                                     <tr>
-                                        <td style="padding-bottom:2%";><img src="images/awardssss.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">University Colours - 2018</h4>
+                                        <td style="padding-bottom:1%";><img src="images/awardssss.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">University Colours - 2018</h4>
                                         <h6><strong class="text-primary">Awarded colours for Badminton 2018</strong></h6>
                                         </td>
                                     </tr>
@@ -182,15 +182,15 @@ function visibleProject()
     <div class="row">
         <div class="col-4 sm-4"></div><div class="col-4 sm-12"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">Projects</h1></div><div class="col-4 sm-4"></div>
     </div>
-            <div class="row"> <!-- details of projects--> 
-                <div class="col-sm-12"> <br>
+            <div class="row" style="padding-top:2px"> <!-- details of projects--> 
+                <div class="col-sm-12"> 
 
                     <div class="row"> <!-- details of projects--> 
                         <div class="col-12-wd"> 
                             <table class="table table-borderless bg-transparent text-white" style="float:center">
                                 <tbody>
                                     <tr>
-                                        <td style="padding-bottom:1%";><img src="images/edoc.png" style="width:150px;"> </td><br><td class="col-wd"><h4 style="text-decoration:underline" class="text-white">E-Channeling App-<i style="font-size:20px">(Individual-Non Academic)</i></h4>
+                                        <td style="padding-bottom:0%";><img src="images/edoc.png" style="width:150px;"> </td><br><td class="col-wd"><h4 style="text-decoration:underline" class="text-white">E-Channeling App-<i style="font-size:20px">(Individual-Non Academic)</i></h4>
                                         
                                         <h6><strong class="text-white">Docters can register in app and patients can see docter details and can make appointments with doctors</strong></h6>
                                         <h5><strong class="text-primary">Flutter | MongoDB | Nodejs | Socket.io</strong></h5>
@@ -204,15 +204,15 @@ function visibleProject()
                     </div>
                 </div>
             </div>
-            <div class="row"> <!-- details of projects--> 
-                <div class="col-sm-12"> <br>
+            <div class="row" style="padding-top:2px"> <!-- details of projects--> 
+                <div class="col-sm-12"> 
 
                     <div class="row"> <!-- details of projects--> 
                         <div class="col-12-wd"> 
                             <table class="table table-borderless bg-transparent text-white" style="float:center">
                                 <tbody>
                                     <tr>
-                                        <td style="padding-bottom:1%";><img src="images/attendance-mark.png" style="width:150px;"> </td><br><td class="col-wd"><h4 style="text-decoration:underline" class="text-white">Attendance Marking App-<i style="font-size:20px">(Individual-Non Academic)</i></h4>
+                                        <td style="padding-bottom:0%";><img src="images/attendance-mark.png" style="width:150px;"> </td><br><td class="col-wd"><h4 style="text-decoration:underline" class="text-white">Attendance Marking App-<i style="font-size:20px">(Individual-Non Academic)</i></h4>
                                         
                                         <h6><strong class="text-white">Marking attendance of team players of university Badminton Team</strong></h6>
                                         <h5><strong class="text-primary">Flutter | Firebase</strong></h5>
@@ -226,15 +226,15 @@ function visibleProject()
                     </div>
                 </div>
             </div>
-            <div class="row"> <!-- details of projects--> 
-                <div class="col-sm-12"> <br>
+            <div class="row" style="padding-top:2px"> <!-- details of projects--> 
+                <div class="col-sm-12"> 
 
                     <div class="row"> <!-- details of projects--> 
                         <div class="col-12-wd"> 
                             <table class="table table-borderless bg-transparent text-white" style="float:center">
                                 <tbody>
                                     <tr>
-                                        <td style="padding-bottom:1%";><img src="images/student mgt sys.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white" style="text-decoration:underline">Student Management System</h4>
+                                        <td style="padding-bottom:0%";><img src="images/student mgt sys.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white" style="text-decoration:underline">Student Management System</h4>
                                         <h6><strong class="text-primary">HTML | CSS | JS | PHP | MySQL | Bootstrap</strong></h6>
                                         </td>
                                     </tr>
