@@ -59,7 +59,7 @@ function visibleEducation()
     var visible = document.getElementById("topicname");
     visible.innerHTML = `
     <div class="row">
-        <div class="col-4-sm-12"></div><div class="col-4 sm-12"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">Education</h1></div><div class="col-4 sm-4"></div>
+        <div class="col-4 sm-4"></div><div class="col-4 sm-12"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">Education</h1></div><div class="col-4 sm-4"></div>
     </div>
     <div class="row "> <!-- details of education--> 
         <div class="col-12-wd"> <br>
@@ -157,7 +157,7 @@ function visibleAchievements()
                             <table class="table table-borderless bg-transparent text-white" style="float:center">
                                 <tbody>
                                     <tr>
-                                        <td style="padding-bottom:20%";><img src="images/awardssss.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">University Colours - 2018</h4>
+                                        <td style="padding-bottom:2%";><img src="images/awardssss.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">University Colours - 2018</h4>
                                         <h6><strong class="text-primary">Awarded colours for Badminton 2018</strong></h6>
                                         </td>
                                     </tr>
@@ -180,22 +180,41 @@ function visibleProject()
   var visible = document.getElementById("topicname");
     visible.innerHTML = `
     <div class="row">
-            <div class="col-sm-12"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Projects</h1></div>
+        <div class="col-4 sm-4"></div><div class="col-4 sm-12"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">Projects</h1></div><div class="col-4 sm-4"></div>
     </div>
             <div class="row"> <!-- details of projects--> 
                 <div class="col-sm-12"> <br>
 
                     <div class="row"> <!-- details of projects--> 
                         <div class="col-12-wd"> 
-                        <table class="table table-borderless bg-transparent text-white" style="float:center">
-                            <tbody>
-                                <tr>
-                                    <td style="padding-bottom:20%";><img src="images/student mgt sys.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">Student Management System</h4>
-                                    <h6><strong class="text-primary">HTML | CSS | JS | PHP | MySQL | Bootstrap</strong></h6>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                            <table class="table table-borderless bg-transparent text-white" style="float:center">
+                                <tbody>
+                                    <tr>
+                                        <td style="padding-bottom:1%";><img src="images/student mgt sys.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">Student Management System</h4>
+                                        <h6><strong class="text-primary">HTML | CSS | JS | PHP | MySQL | Bootstrap</strong></h6>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row"> <!-- details of projects--> 
+                <div class="col-sm-12"> <br>
+
+                    <div class="row"> <!-- details of projects--> 
+                        <div class="col-12-wd"> 
+                            <table class="table table-borderless bg-transparent text-white" style="float:center">
+                                <tbody>
+                                    <tr>
+                                        <td style="padding-bottom:20%";><img src="images/student mgt sys.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">Student Management System</h4>
+                                        <h6><strong class="text-primary">HTML | CSS | JS | PHP | MySQL | Bootstrap</strong></h6>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
 
                         </div>
                     </div>
@@ -210,8 +229,8 @@ function visibleContact()
     var visible = document.getElementById("topicname");
     visible.innerHTML =`
     <div class="row">
-     <div class="col"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Contact me</h1></div>
-        </div>
+        <div class="col-4 sm-4"></div><div class="col-4 sm-12"><h1 class="nameAbout text-white" style="font-size: 25px; padding-bottom:0; margin-bottom:0px; font-weight:bold;">Contact me</h1></div><div class="col-4 sm-4"></div>
+    </div>
         <div class="row"> <!-- details of contact--> 
             <div class="col"> <br>
 
@@ -242,7 +261,7 @@ function visibleContact()
                     
                   <!-- row ends-->
             </div>
-    e    </div>
+       </div>
     `;
 }
 
