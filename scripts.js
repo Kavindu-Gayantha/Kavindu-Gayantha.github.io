@@ -149,6 +149,7 @@ function visibleAchievements()
     <div class="row">
             <div class="col-sm-12"><h1 class="nameAbout text-white" style="font-size: 25px; float:center; padding-bottom:0; padding-left:25% ; margin-bottom:0px; font-weight:bold;">Achievements & Awards</h1></div>
     </div>
+               
             <div class="row"> <!-- details of achievements--> 
                 <div class="col-12-wd"> 
 
@@ -157,15 +158,25 @@ function visibleAchievements()
                             <table class="table table-borderless bg-transparent text-white" style="float:center">
                                 <tbody>
                                     <tr>
-                                        <td style="padding-bottom:1%";><img src="images/awardssss.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">University Colours - 2018</h4>
-                                        <h6><strong class="text-primary">Awarded colours for Badminton 2018</strong></h6>
+                                        <td style="padding-bottom:1%";><img src="images/badminton.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">Vice-Captain-2020</h4>
+                                        <h6><strong class="text-primary">University of Kelaniya Badminton(Boys) Team</strong></h6>
+                                        </td>
+                                    </tr>
+                                        <tr>
+                                        <td style="padding-bottom:1%";><img src="images/awardssss.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white" style="padding-top:7%">University Colours - 2019</h4>
+                                        <h6><strong class="text-primary">Awarded colours for Badminton 2019</strong></h6>
                                         </td>
                                     </tr>
                                     <tr>
-                                    <td><img src="images/ieee innovation nation.png" style="width:150px;"> </td><td class="col-wd"><h4 class="text-white">IEEE innovation nation</h4>
-                                    <h6><strong class="text-primary">Got selected for IEEE innovation nation 2018 final top 8 teams</strong></h6>
-                                    </td>
-                                </tr>
+                                        <td style="padding-bottom:1%";><img src="images/ieeextreme.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white">IEEE Xtreme programming competition-13.0</h4>
+                                        <h6><strong class="text-primary">Participated for the competition-2019</strong></h6>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="images/awardssss.png" style="width:150px;"> </td><td class="col-wd"><h4 class="text-white" style="padding-top:7%">University Colours - 2018</h4>
+                                        <h6><strong class="text-primary">Awarded colours for Badminton 2019</strong></h6>
+                                        </td>
+                                     </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -234,8 +245,8 @@ function visibleProject()
                             <table class="table table-borderless bg-transparent text-white" style="float:center">
                                 <tbody>
                                     <tr>
-                                        <td style="padding-bottom:0%";><img src="images/student mgt sys.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white" style="text-decoration:underline">Student Management System</h4>
-                                        <h6><strong class="text-primary">HTML | CSS | JS | PHP | MySQL | Bootstrap</strong></h6>
+                                        <td style="padding-bottom:0%";><img src="images/student mgt sys.png" style="width:150px;"> </td><br><td class="col-wd"><h4 class="text-white" style="text-decoration:underline">Student Management System-<i style="font-size:20px">(Individual-Academic)</i></h4>
+                                        <h5><strong class="text-primary">HTML | CSS | JS | PHP | MySQL | Bootstrap</strong></h5>
                                         </td>
                                     </tr>
                                 </tbody>
