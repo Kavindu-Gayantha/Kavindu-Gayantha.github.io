@@ -133,6 +133,22 @@ function visibleExtra()
                                 
                                 </div>
                             </tr>
+                            <tr >
+                                <div class="row" >
+                                    <td ><img src="images/medium222.png" style="width:150px;"> </td><td class="col-sm-12"><h4 class="text-white" style="padding-top:5%">Blogger at Medium</h4>
+                                    <h6><strong class="text-primary"></strong></h6>
+                                    </td>
+                                
+                                </div>
+                            </tr>
+                            <tr >
+                                <div class="row" >
+                                    <td ><img src="images/youtube.png" style="width:150px;"> </td><td class="col-sm-12"><h4 class="text-white" style="padding-top:5%">Youtube Channel Admin</h4>
+                                    <h6><strong class="text-primary">CODE Storm youtube channel</strong></h6>
+                                    </td>
+                                
+                                </div>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
