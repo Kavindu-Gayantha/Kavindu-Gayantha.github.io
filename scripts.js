@@ -28,7 +28,7 @@ function visibleAbout()
                     <!-- <th scope="row">1</th> -->
                     <td>Phone</td>
                     <td>+94 71 873 2730 { whatsapp }</td>
-                    <tr><td>+94 76 027 3663</td></tr>
+                    <tr><td></td><td>+94 76 027 3663</td></tr>
                     
                 </tr>
                 <tr>
