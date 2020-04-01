@@ -72,7 +72,7 @@ function visibleEducation()
                         
                             <td class="col-sm-12" style="float:right"><img src="images/Kelaniya.png" style="width:150px;"> </td>
                             <td class="col-sm-12"><h2 class="text-white">University of Kelaniya</h2>
-                                 <h6><strong class="text-primary">undergraduate of bsc(hon's) in software engineering</strong></h6><h6>2018-2022</h6>
+                                 <h6><strong class="text-primary">Undergraduate of B.Sc(Hon's) in Software Engineering</strong></h6><h6>2018-2022</h6>
                         </tr><tr>
                             
                             <p>
@@ -190,7 +190,7 @@ function visibleAchievements()
                                     </tr>
                                     <tr>
                                         <td><img src="images/awardssss.png" style="width:150px;"> </td><td class="col-wd"><h4 class="text-white" style="padding-top:7%">University Colours - 2018</h4>
-                                        <h6><strong class="text-primary">Awarded colours for Badminton 2019</strong></h6>
+                                        <h6><strong class="text-primary">Awarded colours for Badminton 2018</strong></h6>
                                         </td>
                                      </tr>
                                 </tbody>
