@@ -137,7 +137,9 @@ function visibleExtra()
                             </tr>
                             <tr >
                                 <div class="row" >
-                                    <td ><img src="images/medium222.png" style="width:150px;"> </td><td class="col-sm-12"><h4 class="text-white" style="padding-top:5%">Blogger at Medium</h4>
+                                    <td ><img src="images/medium222.png" style="width:150px;"> </td><td class="col-sm-12"><h4 class="text-white" style="padding-top:5%"><a href="https://medium.com/@96kavindugayantha" target="_blank" style="text-decoration:none;color:white">Blogger at Medium</a></h4>
+
+                                    <h6><strong class="text-primary">Technical writer at Analytics Vidhya medium publication</strong></h6>
                                     <h6><strong class="text-primary"></strong></h6>
                                     </td>
                                 
@@ -145,8 +147,8 @@ function visibleExtra()
                             </tr>
                             <tr >
                                 <div class="row" >
-                                    <td ><img src="images/youtube.png" style="width:150px;"> </td><td class="col-sm-12"><h4 class="text-white" style="padding-top:5%">Youtube Channel Admin</h4>
-                                    <h6><strong class="text-primary">CODE Storm youtube channel</strong></h6>
+                                    <td ><img src="images/youtube2.jpg" style="width:150px;"> </td><td class="col-sm-12"><h4 class="text-white" style="padding-top:5%">Youtube Content creator</h4>
+                                    <h6><strong class="text-primary"><a target="_blank" href="https://www.youtube.com/channel/UC6RVPaqYWHRwBDpl7RFRrdg?view_as=subscriber">CODE Storm </a>  youtube channel</strong></h6>
                                     </td>
                                 
                                 </div>
