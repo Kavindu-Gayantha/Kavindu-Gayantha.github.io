@@ -48,6 +48,7 @@ function visibleAbout()
         </table>
         <!-- progress bar -->
         
+        
        
         <tr>
         </tr>
